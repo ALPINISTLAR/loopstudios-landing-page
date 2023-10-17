@@ -9,14 +9,17 @@ html
 *::after
 {
   box-sizing: inherit;
+}
+*{
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 a {
   text-decoration: none;
 }
-
+ul {
+  list-style: none;
+}
 img
 {
   max-width: 100%;
@@ -34,7 +37,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border-color: transparent;
   -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  // -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }
 /* * * VISUALLY HIDDEN * * */
 .visually-hidden {
@@ -54,10 +57,10 @@ body
   height: 100%;
   padding: 0;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 25px;
   font-family: Arial, sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   background-color: #fff;
   color: #222;
 }

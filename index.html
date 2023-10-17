@@ -15,7 +15,7 @@
   <!-- =====       STYLES        ===== -->
   <!-- =============================== -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/sass/styles.css">
 </head>
 <body>
   <section class="header-hero-wrapper">
@@ -53,7 +53,7 @@
   <main class="main-content">
     <!-- Section Leader -->
     <section class="leader">
-      <div class="container">
+      <div class="leader__container container">
         <img class="leader__img" src="img/vr.jpg" alt="Interactive VR" width="731" height="500" srcset="img/vr.jpg 1x, img/vr@2x.jpg 2x">
 
         <div class="leader__content">
@@ -111,29 +111,31 @@
           <!-- * * item 3 * * -->
           <li class="socials__item">
             <a class="socials__link" href="https://pinterest.com" target="_blank">
-              <img class="footer-socials__icon" src="img/pinteres.svg" alt="Pinterest" width="24" height="24">
+              <img class="socials__icon" src="img/pinterest.svg" alt="Pinterest" width="24" height="24">
             </a>
           </li>
           <!-- * * item 4 * * -->
           <li class="socials__item">
             <a class="socials__link" href="https://instagram.com" target="_blank">
-              <img class="footer-socials__icon" src="img/instagram.com" alt="Instagram" width="24" height="24">
+              <img class="socials__icon" src="img/instagram.svg" alt="Instagram" width="24" height="24">
             </a>
           </li>
         </ul>
       </div>
 
-      <nav class="sitenav">
-        <ul class="sitenav__list">
-          <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
-          <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
-          <li class="sitenav__item"><a class="sitenav__link" href="#">Events</a></li>
-          <li class="sitenav__item"><a class="sitenav__link" href="#">Products</a></li>
-          <li class="sitenav__item"><a class="sitenav__link" href="#">Support</a></li>
-        </ul>
-      </nav>
+      <div class="site-footer__bottom">
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Events</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Products</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Support</a></li>
+          </ul>
+        </nav>
 
-      <p class="copywrite">© 2021 Loopstudios. All rights reserved.</p>
+        <p class="copywrite">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
