@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Loopstudios landing page</title>
   <!-- ======================================= -->
   <!-- =====         GOOGLE FONTS         ==== -->
   <!-- ======================================= -->
-
-
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <!-- =============================== -->
   <!-- =====       STYLES        ===== -->
   <!-- =============================== -->
@@ -18,13 +18,124 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <section class="header-hero-wrapper">
+    <!-- HEADER  -->
+    <header class="site-header">
+      <div class="site-header__container container">
+        <a href="index.html" class="site-header__logo logo">
+          <img class="logo__img" src="img/logo.svg" alt="Loopstudios" width="192" height="32">
+        </a>
 
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Events</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Products</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">Immersive experiences that deliver</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ************************ -->
+  <!-- ***   MAIN SECTION   *** -->
+  <!-- ************************ -->
+  <main class="main-content">
+    <!-- Section Leader -->
+    <section class="leader">
+      <div class="container">
+        <img class="leader__img" src="img/vr.jpg" alt="Interactive VR" width="731" height="500" srcset="img/vr.jpg 1x, img/vr@2x.jpg 2x">
 
-<!-- ************************ -->
-<!-- ***   MAIN SECTION   *** -->
-<!-- ************************ -->
-<main class="main-content"></main>
+        <div class="leader__content">
+          <h2 class="leader__title">The leader in interactive VR</h2>
+          <p class="leader__text">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Creations -->
+    <section class="creations">
+      <div class="container">
+        <div class="creations__header">
+          <h2 class="creations__title">OUR CREATIONS</h2>
+          <a class="btn"  href="#">SEE ALL</a>
+        </div>
+
+        <!-- Grid  -->
+        <div class="creations__grid">
+          <img class="creations__img" src="img/deep-earth.jpg" alt="Deep Earth" width="256" height="450" srcset="img/deep-earth.jpg 1x, img/deep-earth@2x.jpg 2x">
+          <img class="creations__img" src="img/night-arcade.jpg" alt="Night Arcade" width="256" height="450" srcset="img/night-arcade.jpg 1x, img/night-arcade@2x.jpg 2x">
+          <img class="creations__img" src="img/soccer-team.jpg" alt="Soccer Team" width="256" height="450" srcset="img/soccer-team.jpg 1x, img/soccer-team@2x.jpg 2x">
+          <img class="creations__img" src="img/the-grid.jpg" alt="The grid" width="256" height="450" srcset="img/the-grid.jpg 1x, img/the-grid@2x.jpg 2x">
+          <img class="creations__img" src="img/above-vr.jpg" alt="Above VR" width="256" height="450" srcset="img/above-vr.jpg 1x, img/above-vr@2x.jpg 2x">
+          <img class="creations__img" src="img/pocket-borealis.jpg" alt="Pocket Borealis" width="256" height="450" srcset="img/pocket-borealis.jpg 1x, img/pocket-borealis@2x.jpg 2x">
+          <img class="creations__img" src="img/the-curiosity.jpg" alt="The Curiosity" width="256" height="450" srcset="img/the-curiosity.jpg 1x, img/the-curiosity@2x.jpg 2x">
+          <img class="creations__img" src="img/fisheye.jpg" alt="Make it fisheye" width="256" height="450" srcset="img/fisheye.jpg 1x, img/fisheye@2x.jpg 2x">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="site-footer">
+    <div class="site-footer__container container">
+      <div class="site-footer__top">
+        <a class="site-footer__logo logo" href="index.html">
+          <img class="logo__img" src="img/logo.svg" alt="Loopstudios" width="144" height="24">
+        </a>
+
+        <!-- socials  -->
+        <ul class="site-footer__socials-list socials">
+          <!-- * * item 1 * * -->
+          <li class="socials__item">
+            <a class="socials__link" href="https://facebook.com" target="_blank">
+              <img class="socials__icon" src="img/facebook.svg" alt="Facebook" width="24" height="24">
+            </a>
+          </li>
+          <!-- * * item 2 * * -->
+          <li class="socials__item">
+            <a class="socials__link" href="https://twitter.com" target="_blank">
+              <img class="socials__icon" src="img/twitter.svg" alt="Twitter" width="24" height="20">
+            </a>
+          </li>
+          <!-- * * item 3 * * -->
+          <li class="socials__item">
+            <a class="socials__link" href="https://pinterest.com" target="_blank">
+              <img class="footer-socials__icon" src="img/pinteres.svg" alt="Pinterest" width="24" height="24">
+            </a>
+          </li>
+          <!-- * * item 4 * * -->
+          <li class="socials__item">
+            <a class="socials__link" href="https://instagram.com" target="_blank">
+              <img class="footer-socials__icon" src="img/instagram.com" alt="Instagram" width="24" height="24">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Events</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Products</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Support</a></li>
+        </ul>
+      </nav>
+
+      <p class="copywrite">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
